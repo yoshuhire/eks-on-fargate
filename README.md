@@ -2,6 +2,8 @@
 
 - [Kubernetes 環境構築手順](#kubernetes-環境構築手順)
 - [概要](#概要)
+  - [AWS構成図](#aws構成図)
+  - [Kubernetes 構成図](#kubernetes-構成図)
   - [インフラ環境について(`infra`)](#インフラ環境についてinfra)
   - [Webサーバーについて(`app`)](#webサーバーについてapp)
   - [マニフェストについて(`manifest`)](#マニフェストについてmanifest)
@@ -18,6 +20,16 @@
 ## 概要
 
 Kubernetes にシンプルなWebサーバー(python)を構築するためのコードと手順を記載したリポジトリです。<br>
+
+### AWS構成図
+
+![AWS構成図](./infra/modules/eks/images/eks_on_fargate.drawio.png)
+
+### Kubernetes 構成図
+
+![Kubernetes構成図](./manifest/images/kubernetes-resource.drawio.png)
+
+
 ディレクトリ構成は以下です。
 
 ```
